@@ -1,0 +1,121 @@
+@font-face {
+    font-family: RobotoReugular;
+    src: url(/assets/fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(/assets/fonts/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: MontseratBold;
+    src: url(/assets/fonts/montserrat/Montserrat-Bold.ttf);
+}
+
+body {
+    width: auto;
+    margin: 0%;
+    text-align: center;
+    font-family: RobotoReugular;
+}
+
+.container h2 {
+    color: #199B80 !important;
+    font-family: MontseratBold;
+}
+
+.container h3,
+h4 {
+    font-family: MontseratBold;
+}
+
+img {
+    width: 100%;
+}
+
+i {
+    margin-right: 5px;
+    font-size: 35px;
+}
+
+p {
+    margin: 10px;
+}
+
+#vision {
+    font-family: RobotoBold;
+}
+
+#item-footer {
+    text-align: right;
+    margin: 5px;
+    font-size: 10px;
+    position: absolute;
+    top: 75px;
+    right: 5px;
+}
+
+#line-top {
+    background-color: black;
+    width: 15%;
+    height: 10px;
+    top: 0;
+}
+
+#sub-title {
+    font-size: 13px;
+}
+
+#vision-item {
+    text-align: left;
+    width: 25%;
+    margin: 10px;
+}
+
+#vision-item h3 {
+    margin-left: 20px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.item {
+    border: 1px solid black;
+    margin-right: 10px;
+    width: 18%;
+    position: relative;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .item{
+        width: 50%;
+        margin: 10px;
+    }
+    #vision-item{
+        width: 60%;
+    }
+  }
+  
+@media only screen and (max-width: 768px) {
+    .item{
+        margin: 10px;
+        width: 40%;
+    }
+  } 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .item{
+        margin: 10px;
+        width: 30%;
+    }
+  } 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .item{
+        margin: 10px;
+        width: 18%;
+    }
+}
